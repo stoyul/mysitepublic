@@ -1,0 +1,43 @@
+/* Refined type scale: Prata for display, Manrope for readable interface text. */
+body { font-size: 17px; line-height: 1.58; }
+.brand { font-size: 25px; letter-spacing: .02em; }
+.header nav { font-size: 14px; font-weight: 550; }
+.button { min-height: 46px; font-size: 13px; }
+.button.small { font-size: 12px; }
+.role { font-size: 16px; }
+.intro { font-size: 15px; line-height: 1.65; }
+.center-title p { font-size: 16px; }
+.card-copy p { font-size: 14px; line-height: 1.55; }
+.card-link { font-size: 12px; font-weight: 650; }
+.eyebrow { font-size: 13px; }
+.method-layout > div > p:not(.eyebrow) { font-size: 15px; line-height: 1.65; }
+.steps h3 { font-size: 15px; }
+.steps p { font-size: 13px; line-height: 1.45; }
+.journey-bottom p { font-size: 14px; }
+details, .method-details, .catalog-more { font-size: 14px; }
+.product summary { font-size: 12px; }
+.experts-copy > p:not(.eyebrow), .experts-copy .small-copy { font-size: 14px; line-height: 1.55; }
+.expert-options h3 { font-size: 12px; }
+.expert-options p { font-size: 13px; }
+.mini-link { font-size: 11px; }
+.expert-info { font-size: 14px; }
+.about p:not(.eyebrow) { font-size: 15px; line-height: 1.65; }
+.qualities p { font-size: 12px !important; }
+.qualities small { font-size: 12px; }
+footer .center-title p, .footer-options p { font-size: 14px; }
+.footer-options > a > span { font-size: 13px; }
+.footer-options b { font-size: 12px; }
+.copyright { font-size: 11px; }
+
+@media (max-width: 700px) {
+  body { font-size: 16px; }
+  .header nav { font-size: 11px; }
+  .role { font-size: 14px; }
+  .intro { font-size: 15px; }
+  .center-title p { font-size: 14px; }
+  .card-copy p { font-size: 14px; }
+  .card-link { font-size: 11px; }
+  .steps h3 { font-size: 11px; }
+  .steps p { font-size: 11px; }
+  .about p:not(.eyebrow) { font-size: 14px; }
+}
